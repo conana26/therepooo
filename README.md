@@ -1,2 +1,0 @@
-# therepooo
-this a repo

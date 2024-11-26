@@ -1,0 +1,115 @@
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .navbar .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar-logo a{
+            text-decoration: none ;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: #333;
+          }
+
+        .navbar .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar .menu a {
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+        }
+
+        .navbar .socials {
+            display: flex;
+            gap: 10px;
+        }
+
+        .navbar .socials img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Main Section Styles */
+        .main {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #d9d9d9;
+            height: 60vh;
+            padding: 20px;
+        }
+
+        .main .yt-cover {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .main .feature {
+            text-align: center;
+        }
+
+        .main .feature h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .main .feature h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .main .feature button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .main .feature button:hover {
+            background-color: #575757;
+        }
+
+        /* Arrow Section */
+        .arrow-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .arrow-section span {
+            font-size: 2rem;
+            color: black;
+        }
