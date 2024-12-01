@@ -1,16 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="music.html">
+    <script src="slideshow.js"></script>
+    <title>Wave to Earth</title>
+    
+</head>
+<body>
 <!-- Navigation Bar -->
 <div class="navbar">
-    <div class="logo"><a href="www.google.com">Wave To Earth Logo</a></div>
-    <div class="menu">
-        <a href="index.html">Home</a>
-        <a href="music.html">Music</a>
-        <a href="#tours">Tours</a>
-        <a href="#merch">Merch</a>
-        <a href="#about">About Us</a>
+    <div class="logo">
+        <img src="https://pbs.twimg.com/profile_images/1602918140190818304/nKkU0yjV_400x400.jpg" alt="Logo">
     </div>
-    <div class="socials">
-        <img src="https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471_640.jpg" alt="Spotify">
-        <img src="https://i.pinimg.com/originals/2c/da/19/2cda1925dcf4fb8f0644413f49671ffa.jpg" alt="Instagram">
-        <img src="https://i.pinimg.com/1200x/3f/3e/3b/3f3e3bb313ca6bc4a383114dd9f7d576.jpg" alt="YouTube">
-    </div>
+    <div class="push_to_right"></div>
+     <div class="menu">
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="music.html">Music</a></li>
+         <li><a href="tours.html">Tours</a></li>
+         <li><a href="merch.html">Merch</a></li>
+         <li><a href="aboutus.html">AboutUs</a></li>
+        </ul>
+     </div>
+     <div class="socials">
+        <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg?si=utwsigDgT9uRqDOTs9ruZA"><img src="imgs\spotify-logo.avif" alt="Spotify"></a>
+        <a href="https://www.instagram.com/wave_to_earth?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="imgs\insta-logo.webp" alt="Instagram"></a>
+        <a href="https://youtube.com/@wavetoearth?si=6UzroBYszzHCjiud"><img src="imgs\yt-logo.webp" alt="YouTube"></a>
+     </div>
 </div>
+
+<div class="bg-video-container">
+    <video class="background-video" autoplay loop muted>
+      <source src="imgs\background_vid.mp4" type="video/mp4">
+    </video>
+    <div class="gradient-overlay"></div> <!-- Gradient overlay -->
+</div>
+
+<!-- Section 1: About Us Overview -->
+<section class="slideshow-container">
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slide-1" src="imgs\aboutus1.jpg" alt="about us 1">
+            <img id="slide-2" src="imgs\aboutus2.jpg" alt="about us 2">
+            <img id="slide-3" src="imgs\aboutus3.jpg" alt="about us 3">
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="about-section" id="about-overview">
+    <div class="content">
+        <h2>about us</h2>
+        <p>
+            Based in Seoul, South Korea, 'wave to earth' is a three-member band consisting of singer-songwriter Daniel Kim, drummer Dong Kyu Shin, and bassist John Cha. 'wave to earth' produces indie pop with a lo-fi sound based on jazz drumming, creating a unique sense of the seasons and a dreamy atmosphere in the music. With the primary motto of "All Self-made," all recording, mixing, and mastering is done directly by the band members, who also direct the overall art field, such as album art, video, and fashion.
+
+'wave to earth' debuted with the single 'wave' in 2019, followed by EPs 'wave 0.01' and 'summer flows 0.02'. After joining the 'Wavy Seoul' label, they released heir highly anticipated first full-length album in April 2023, titled "0.1 flaws and all." This album features a collection of 14 captivating tracks, each a testament to the band's evolving artistry. One standout track, 'bad,' was charted #1 on Spotify's "Viral 50 - Global", underscoring their global appeal.
+
+In September 2024, 'wave to earth' released their newest album, "play with earth! 0.03," which
+garnered widespread acclaim from listeners, debuting at #5 on Spotify's Global Top Debut Album chart. Following the album release, the band embarked on their "0.03 world tour," with all shows in North America selling out. 
+        </p>
+        <h3>
+            The name Wave to Earth reveals the band's desire to "become the new wave" and expand its own universe across the world.
+        </h3>
+        <div class="scroll-indicator">↓</div>
+    </div>
+</section>
+
+<!-- Section 2: Team Members -->
+<section class="team-section" id="team">
+    <h2>Meet the Band</h2>
+    <div class="content">
+        <!-- John -->
+        <div class="team-member">
+            <div class="member-photo">
+                <img src="imgs\john.avif">
+            </div>
+            <h3>John Cha, 27</h3>
+            <p><strong>Role:</strong> Bass</p>
+            <p><strong>Birthday:</strong> August 13, 1997</p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/johnchamusic/?hl=en">@johnchamusic</a></p>
+        </div>
+
+        <!-- Daniel -->
+        <div class="team-member">
+            <div class="member-photo">
+                <img src="imgs\daniel.avif">
+            </div>
+            <h3>Daniel Kim, 27</h3>
+            <p><strong>Role:</strong> Guitar, Vocals, Songwriter</p>
+            <p><strong>Birthday:</strong> March 16, 1997</p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/niellkim_/?hl=en">@danielkim_music</a></p>
+        </div>
+
+        <!-- Dong Q -->
+        <div class="team-member">
+            <div class="member-photo">
+                <img src="imgs\dongq.avif">
+            </div>
+            <h3>Dong Q, 26</h3>
+            <p><strong>Role:</strong> Drums</p>
+            <p><strong>Birthday:</strong> January 23, 1998</p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/dongkiii_/?hl=en">@dongqofficial</a></p>
+        </div>
+    </div>
+
+</section>
+
+    
+
+<!-- Footer -->
+<div class="footer">
+    &copy; 2024 Wave to Earth. All rights reserved.
+  </div>
+  

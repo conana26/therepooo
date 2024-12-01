@@ -1,16 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="music.html">
+    <script src="merch-dropdown.js" defer></script>
+    <title>Wave to Earth</title>
+    
+</head>
+<body>
 <!-- Navigation Bar -->
 <div class="navbar">
-    <div class="logo"><a href="www.google.com">Wave To Earth Logo</a></div>
-    <div class="menu">
-        <a href="index.html">Home</a>
-        <a href="music.html">Music</a>
-        <a href="#tours">Tours</a>
-        <a href="#merch">Merch</a>
-        <a href="#about">About Us</a>
+    <div class="logo">
+        <img src="https://pbs.twimg.com/profile_images/1602918140190818304/nKkU0yjV_400x400.jpg" alt="Logo">
     </div>
-    <div class="socials">
-        <img src="https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471_640.jpg" alt="Spotify">
-        <img src="https://i.pinimg.com/originals/2c/da/19/2cda1925dcf4fb8f0644413f49671ffa.jpg" alt="Instagram">
-        <img src="https://i.pinimg.com/1200x/3f/3e/3b/3f3e3bb313ca6bc4a383114dd9f7d576.jpg" alt="YouTube">
-    </div>
+    <div class="push_to_right"></div>
+     <div class="menu">
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="music.html">Music</a></li>
+         <li><a href="tours.html">Tours</a></li>
+         <li><a href="merch.html">Merch</a></li>
+         <li><a href="aboutus.html">AboutUs</a></li>
+        </ul>
+     </div>
+     <div class="socials">
+        <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg?si=utwsigDgT9uRqDOTs9ruZA"><img src="imgs\spotify-logo.avif" alt="Spotify"></a>
+        <a href="https://www.instagram.com/wave_to_earth?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="imgs\insta-logo.webp" alt="Instagram"></a>
+        <a href="https://youtube.com/@wavetoearth?si=6UzroBYszzHCjiud"><img src="imgs\yt-logo.webp" alt="YouTube"></a>
+     </div>
 </div>
+
+ <!-- Merch Section -->
+<section class="merch-section">
+    <!--Dropdown menu-->
+    <div class="fixing-positions"> 
+        <ul class="dropdown-bar">
+            <li class="dropdown-align">
+                <h2>Best Selling</h2>
+            </li>
+            <li class="spacer"></li>   
+            <li>
+                <select name="sort-options" id="sort-options">
+                    <option value="price">Price</option>
+                    <option value="alphabetical">Alphabetical</option>
+                </select>
+            </li> 
+        </ul>
+    </div>
+
+    <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\seasons-hoodie.png">
+            </div>
+            <p class="price">$29.95</p>
+            <p class="name">Seasons Hoodie</p>
+        </div>
+        <!-- Product 2 -->
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs/summer-flows-t-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">Summer Flows 0.02 T-Shirt</p>
+        </div>
+        <!-- Product 3 -->
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\summer-flows-hoodie.png">
+            </div>
+            <p class="price">$33.95</p>
+            <p class="name">Summer Flows 0.02 Hoodie</p>
+        </div>
+        <!-- Product 4 -->
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\logo-t-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">w2e Logo T-Shirt</p>
+        </div>
+        <!-- Product 5 -->
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\iluvw2e-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">I luv w2e T-Shirt</p>
+        </div>
+    </div>
+
+    <h2>Latest Releases</h2>
+    <div class="product-grid">
+        <!-- Repeated the same products for demonstration -->
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\summer-flows-hoodie.png">
+            </div>
+            <p class="price">$29.95</p>
+            <p class="name">Seasons Hoodie</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\summer-flows-t-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">Summer Flows 0.02 T-Shirt</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\summer-flows-hoodie.png">
+            </div>
+            <p class="price">$33.95</p>
+            <p class="name">Summer Flows 0.02 Hoodie</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\logo-t-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">w2e Logo T-Shirt</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\iluvw2e-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">I luv w2e T-Shirt</p>
+        </div>
+    </div>
+
+    <h2>Fan Favourites</h2>
+    <div class="product-grid">
+        <!-- Repeated the same products for demonstration -->
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\summer-flows-hoodie.png">
+            </div>
+            <p class="price">$29.95</p>
+            <p class="name">Seasons Hoodie</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\summer-flows-t-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">Summer Flows 0.02 T-Shirt</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\summer-flows-hoodie.png">
+            </div>
+            <p class="price">$33.95</p>
+            <p class="name">Summer Flows 0.02 Hoodie</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\logo-t-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">w2e Logo T-Shirt</p>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="imgs\iluvw2e-shirt.png">
+            </div>
+            <p class="price">$23.95</p>
+            <p class="name">I luv w2e T-Shirt</p>
+        </div>
+    </div>
+
+</section>
+</body>
+
+<!-- Footer -->
+<div class="footer">
+    &copy; 2024 Wave to Earth. All rights reserved.
+  </div>
+  
